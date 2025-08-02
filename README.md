@@ -1,8 +1,97 @@
-# study_log 学习笔记代码存储仓库
-## 高性能计算
-### CS 149 PARALLEL COMPUTING
-进度：学习到spark之前。
-## 机器学习
-### 台湾NTU李宏毅 机器学习系列
-Machine learning 2025
-Machine learning 2021
+# Ray Z 的学习笔记与代码仓库
+
+📚 本仓库记录了我学习公开课程的学习笔记、课程材料与作业实现。  
+🎯 近期聚焦：**机器学习系统（ML Systems）**、**AI 基础设施（AI Infrastructure）** 与 **高性能计算**。
+
+---
+
+## 📚 目录（Table of Contents）
+
+- [I. 简介](#-ray-z-的学习笔记与代码仓库)
+- [II. 学习领域概览](#-学习领域概览)
+  - [0. 编程初步](#0-编程初步)
+  - [1. 高性能计算](#1-高性能计算)
+  - [2. 机器学习](#2-机器学习)
+  - [3. ML System / AI Infra](#3-ml-system--ai-infra)
+- [III. 贡献与更新](#iii-贡献与更新)
+- [IV. License](#iv-license)
+
+---
+
+## II. 学习领域概览
+
+### 0. 编程初步
+> 💻 初步掌握编程语言基础，为后续系统与算法学习打下根基。
+
+### 1. 高性能计算
+> ⚡ 学习并行与分布式计算核心技术，提升大规模计算能力。
+
+#### 📌 CS 149: Parallel Computing (Stanford)
+- 📚 学习进度：已完成至 Spark 前内容
+- 🏷️ 技术栈：C++, SIMD, CUDA, OpenMP, MapReduce
+- 📂 作业概览：
+  - [HW0: SIMD Image Processing](./cs149/hw0)
+  - [HW1: CUDA Programming](./cs149/hw1)
+  - [HW2: OpenMP & MapReduce](./cs149/hw2)
+
+> 📌 课程主页：[Stanford CS 149](https://cs149.stanford.edu/)
+
+---
+
+### 2. 机器学习
+> 🤖 系统学习机器学习核心理论与模型，从基础到前沿。
+
+#### 📌 台湾 NTU 李宏毅机器学习系列
+- 📘 [Machine Learning 2025](https://speech.ee.ntu.edu.tw/~hylee/ml/2025-spring.html)
+- 📗 [Machine Learning 2021](https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.html)
+- 🎯 内容涵盖：深度学习、自监督学习、大模型、生成模型等
+
+> 📝 学习笔记与代码实现正在逐步上传中。
+
+---
+
+### 3. ML System / AI Infra
+> 🧠 深入 AI 系统栈，理解从算法到芯片的全栈协同设计。
+
+#### 📌 《智能计算系统》课程与教材
+> 🔗 官方课程网站：[https://novel.ict.ac.cn/aics/](https://novel.ict.ac.cn/aics/)  
+> 🎥 Bilibili 视频：[BV1WE411A7tv](https://www.bilibili.com/video/BV1WE411A7tv/)  
+> 📚 教材：《智能计算系统》—— 陈云霁 等著
+
+📘 **课程特色**：
+- ✅ 国内首门讲授“当代智能计算系统”的完整课程
+- ✅ “应用驱动，全栈贯通”：以“图像风格迁移”为牵引，贯穿算法、框架、芯片、系统
+- ✅ 覆盖 AI 软硬件全栈：深度学习模型 → 编程框架（如 CNN/Transformer） → 加速器架构 → 操作系统支持
+
+🎓 **院士推荐**：
+> ⚠️ **陈国良 院士**  
+> “开创了我国第一门讲授当代智能计算系统的课程，对我国人工智能人才培养产生了广泛而深远的影响。”
+
+> 💡 **李国杰 院士**  
+> “以图像风格迁移为牵引，使学生对系统全貌有深刻印象，达到举一反三、触类旁通的效果。”
+
+> 🔬 **张亚勤 院士**  
+> “深层次全栈性解析 AI 关键技术，是高年级本科生/研究生和科技人员的优秀教材。”
+
+📚 **适合读者**：AI 系统方向学生、工程师、研究人员  
+🛠️ 学习目标：理解 AI 计算系统如何协同工作，为设计高效 AI 系统打下基础。
+
+---
+
+## III. 贡献与更新
+- ✅ 本仓库持续更新中，欢迎 Star ⭐ 以获取最新动态。
+- 🛠️ 如发现错误或有改进建议，欢迎提交 Issue 或 Pull Request。
+- 📝 后续计划：
+  - 补充《智能计算系统》课程笔记与实验代码
+  - 增加 ML Compiler 与 AI 编译优化内容
+  - 探索大模型推理系统设计
+
+---
+
+## IV. License
+本仓库内容仅供个人学习与交流使用，部分课程材料版权归属原作者所有。  
+请遵守各课程的使用协议，勿用于商业用途。
+
+---
+
+👋 感谢阅读！一起探索 AI 系统的底层奥秘 🚀
